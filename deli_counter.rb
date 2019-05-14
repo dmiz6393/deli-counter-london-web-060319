@@ -5,10 +5,9 @@ def line(katz_deli)
     puts "The line is currently empty."
 
  else 
-   line= "The line is currently:"
-   katz_deli.each_with_index do |name,index| 
-   line.concat ("#{index+1}.#{name}") 
-   puts line 
+    line = "The line is currently:"
+    katz_deli.each_with_index{|name, index| line.concat(" #{index + 1}. #{name}")}
+    puts line
     end
   end 
  
