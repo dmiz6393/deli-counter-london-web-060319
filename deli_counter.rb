@@ -13,6 +13,8 @@ def line(katz_deli)
     end 
     
 def now_serving(katz_deli)
+if katz_deli.length==0 
+katz_deli.push(name)
 puts "Currently serving 
 .pop 
   
