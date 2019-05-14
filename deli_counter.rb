@@ -17,7 +17,7 @@ def line(katz_deli)
     elsif katz_deli.length>=1 
        katz_deli.push(name)
       puts "Welcome {#name}. You are number #{katz_deli.length} in line." 
-    
+  
   else 
      katz_deli.push(name)
     "Welcome {#name}. You are number #{katz_deli.length} in line."
