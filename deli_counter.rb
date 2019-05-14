@@ -33,6 +33,3 @@ puts "Currently serving #{katz_deli.first}."
 end 
 katz_deli.shift 
 end 
-end 
-end 
-end 
